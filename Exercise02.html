@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin:0;
+    }
+    .CONTAINER{
+      display:flex; 
+      background-color: black;
+      padding:10px 20px;
+      color:azure;
+      justify-content:space-between;
+      align-items: center;
+      position: relative;
+    }
+    .list{
+        display:flex;
+        list-style:none;
+    }
+    .list li{
+        margin:0 15px;
+    }
+    .list a{
+        color:azure;
+        text-decoration:none;
+    }
+    .hamburger{
+        display :none;
+        cursor:pointer;
+        text-decoration: none;
+        color: azure;
+    }
+    @media(max-width:768px){
+        .CONTAINER{
+            /* display: none;
+            flex-direction: column;
+            top:60px;
+            right:20px;
+            background-color: black;
+            border-radius: 5px;
+            padding:10px; */
+            flex-wrap: wrap;
+        }
+        .hamburger{
+            display: block;
+        }
+        .list{
+            display: none;
+            flex-direction: column;
+            width:100%;
+            background-color: black;
+            padding: 10px;
+        }
+        .list li{
+            margin: 10px 0;
+            text-align: center;
+        }
+        .list:target{
+            display: flex;
+        }
+    }
+</style>
+<body>
+    <nav class="CONTAINER">
+        <h1>Logo</h1>
+         <a href="#menu" class="hamburger">&#9776;</a>
+          <ul class="list">
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>Contact</li>
+          </ul>
+    </nav>
+</body>
+</html>

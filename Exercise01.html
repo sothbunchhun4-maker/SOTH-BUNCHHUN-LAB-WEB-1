@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    .CONTAIN{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: start;
+        gap:10px;
+    }
+    .BOX{
+        background-color: lightblue;
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }
+    @media(max-width:1000px){
+        .CONTAIN{
+          grid-template-columns: repeat(3,1fr);
+        }
+    }
+    @media(max-width:768px){
+        .CONTAIN{
+          grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media(max-width:480px){
+        .CONTAIN{
+          grid-template-columns: repeat(1,1fr);
+        }
+    }   
+</style>
+<body>
+    <div class="CONTAIN">
+        <div class="BOX">Item 1</div>
+        <div class="BOX">Item 2</div>
+        <div class="BOX">Item 3</div>
+        <div class="BOX">Item 4</div>
+        <div class="BOX">Item 5</div>
+        <div class="BOX">Item 6</div>
+        <div class="BOX">Item 7</div>
+        <div class="BOX">Item 8</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper{
+        padding: 40px;
+    }
+    .SMALL{
+        display: flex;
+        background-color: red;
+        color: aliceblue;
+        padding: 10px 20px;
+        font-size:20px;
+        font-family: Arial, sans-serif;
+        
+    }
+    .BIG{
+        display:none;
+    }
+    @media only screen and (min-width:650px){
+        .SMALL{
+        display: none;
+        }
+        .BIG{
+        display: flex;
+        background-color: lawngreen;
+        color: aliceblue;
+        padding: 15px 30px;
+        font-size: 35px;
+        font-family: Arial, sans-serif;
+        }
+    }
+</style>
+<body>
+  <div class="wrapper">
+    <div class="CONTAIN">
+        <span class="SMALL">I'm SMALL 😒</span>
+        <span CLASS="BIG">I'm BIG 🤪</span>
+    </div>
+  </div>
+</body>
+</html>
