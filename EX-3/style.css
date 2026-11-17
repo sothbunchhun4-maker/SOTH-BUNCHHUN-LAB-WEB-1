@@ -1,0 +1,16 @@
+
+    button{
+      border-color:plum;
+      background-color:pink;
+      color:white;
+      border-radius:7px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top:10px;
+      padding-bottom:10px;
+    }
+    button:hover{
+      border-color: purple;
+      background-color:  palevioletred;
+    }
+/* TODO */
