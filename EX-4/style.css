@@ -1,0 +1,135 @@
+body{
+    background-color:darkblue;
+}
+
+.HEADER{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items:center;
+    margin-bottom: 12px;
+}
+.LOGO{
+    color:azure;
+    font-size:24px;
+    font-weight: bold;
+}
+.PROFILE{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap:8px;
+}
+.PROFILE img{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+}
+.NAME{
+    color: azure;
+    font-weight:bold;
+    font-size:14px;
+}
+.NAME img{
+    width:1px;
+}
+.STUDENT{
+    color: aqua;
+    font-size: 11px;
+}
+
+.CONTAINER{
+    display: grid;
+    grid-template-columns:140px auto;
+    align-items:start;
+    gap: 15px;
+}
+.CATALOG{
+    display:grid;
+    background-color: azure;
+    padding:20px;
+    height: 480px;
+    border-radius: 10px;
+}
+.BOX{
+    display:grid;
+    align-items: center;
+    font-style: bold;
+    color:darkblue;
+    border-radius: 10px;
+}
+.BOX:hover{
+    background-color:lightskyblue;
+}
+
+.DASHBOARD{
+    display: grid;
+    background-color: azure;
+    border-radius:10px;
+    color:darkblue;
+    height: 210px;
+    padding: 10px;
+}
+.DASHBOARD img{
+    border-radius: 10px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.MIDDLE{
+    display:grid;
+    gap:20px;
+}
+.IN-MIDDLE{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:start;
+    gap:20px;
+}
+.CALENDER{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: azure;
+    border-radius:10px;
+    height:250px;
+    color:darkblue;
+}
+.WEEKLY{
+    display: grid;
+    justify-content:start;
+    align-items: start;
+    padding: 10px;
+    background-color: azure;
+    border-radius:10px;
+    height:250px;
+    color:darkblue;
+  
+}
+.COUNTRY{
+    display: grid;
+    justify-content:start;
+    align-items: start;
+    padding: 10px;
+    background-color: azure;
+    border-radius:10px;
+    height:250px;
+    color:darkblue;
+
+}
+.CALENDER img{
+    width:250px;
+    height:200px;
+    border-radius: 10px;
+}
+.WEEKLY img{
+    width:500px;
+    height:200px;
+    border-radius: 10px;
+}
+.COUNTRY img{
+    width:300px;
+    height:200px;
+    border-radius: 10px;
+}
+
